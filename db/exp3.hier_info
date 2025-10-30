@@ -1,0 +1,12 @@
+|exp3
+A => CarryBorrow.IN0
+A => SumDiff.IN0
+A => CarryBorrow.IN0
+B => CarryBorrow.IN1
+B => SumDiff.IN1
+B => CarryBorrow.IN1
+mode => CarryBorrow.OUTPUTSELECT
+SumDiff <= SumDiff.DB_MAX_OUTPUT_PORT_TYPE
+CarryBorrow <= CarryBorrow.DB_MAX_OUTPUT_PORT_TYPE
+
+

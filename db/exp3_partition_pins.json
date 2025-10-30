@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SumDiff",
+					"strict" : false
+				},
+				{
+					"name" : "CarryBorrow",
+					"strict" : false
+				},
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
